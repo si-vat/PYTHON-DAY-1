@@ -1,0 +1,10 @@
+f=int(input("Enter the fresh bread price"))
+o=int(input("Enter the old bread price"))
+rp=185
+dp=rp*40/100
+a1=rp*f
+a2=dp*o
+print("regular price= %.2f"%rp)
+print("amount of new loaves= %.2f"%a1)
+print("amount of old loaves=%.2f"%a2)
+print("total amount=%.2f"%(a1+a2))
